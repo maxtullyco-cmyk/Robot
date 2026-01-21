@@ -47,5 +47,11 @@
 </head>
 <body>
     <div id="root"></div>
+    <!-- 
+      The following script tag is CRITICAL. 
+      It tells the browser to load and execute the index.tsx file as an ES module,
+      which triggers the React rendering and mounts the app into the #root div.
+    -->
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>

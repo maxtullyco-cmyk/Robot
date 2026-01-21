@@ -20,7 +20,7 @@ const Gallery: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 h-auto md:h-[750px]">
           <div className="md:col-span-8 group relative overflow-hidden rounded-[3rem] border border-white/5 bg-[#0a0510] shadow-[0_40px_80px_rgba(0,0,0,0.6)] animate-in slide-in-from-left-12 fade-in duration-1000 delay-200 fill-mode-both ease-out">
              <img 
-               src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000" 
+               src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000" 
                alt="Global Cloud Infrastructure" 
                className="w-full h-full object-cover opacity-60 grayscale transition-all duration-1000 group-hover:scale-110 group-hover:opacity-100 group-hover:grayscale-0" 
              />
