@@ -3,7 +3,7 @@ import React from 'react';
 
 const CTA: React.FC = () => {
   return (
-    <section id="cta" className="relative py-48 px-6 md:px-20 min-h-screen flex flex-col justify-center bg-[#050208] z-20">
+    <section id="cta" className="relative py-48 px-6 md:px-20 flex flex-col justify-center bg-[#050208] z-20">
       {/* Background Ambient Glows */}
       <div className="absolute top-1/2 right-0 w-[50vw] h-[50vw] bg-purple-600/10 rounded-full blur-[150px] pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[30vw] h-[30vw] bg-indigo-600/5 rounded-full blur-[120px] pointer-events-none"></div>

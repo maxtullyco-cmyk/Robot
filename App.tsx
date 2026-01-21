@@ -19,23 +19,22 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#050208] selection:bg-purple-500/30 overflow-x-hidden">
+    <div className="flex flex-col min-h-screen bg-[#050208] selection:bg-purple-500/30">
       {/* Navigation */}
       <Navbar scrollY={scrollY} />
       
       {/* 
-          Main Content Layout: 
-          Each section is discrete. 
+          Main Content Layout
       */}
-      <main className="flex-grow relative z-10 w-full">
+      <main className="w-full relative z-10 flex-grow">
         <Hero scrollY={scrollY} />
         <Features />
         <Gallery />
         <CTA />
       </main>
 
-      {/* Footer ensures no extra space below it by being part of the flex container */}
-      <footer className="relative z-20 py-24 px-6 border-t border-purple-900/20 bg-black/90 backdrop-blur-2xl">
+      {/* Footer ensures no extra space below it */}
+      <footer className="w-full relative z-20 py-24 px-6 border-t border-purple-900/20 bg-black backdrop-blur-2xl">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-3">
