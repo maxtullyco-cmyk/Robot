@@ -8,13 +8,13 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ scrollY }) => {
   return (
-    <section className="relative h-screen w-full flex flex-col justify-start pt-32 md:pt-40 px-6 md:px-24 overflow-hidden">
+    <section className="relative h-screen w-full flex flex-col justify-end pb-20 md:pb-32 px-6 md:px-24 overflow-hidden">
       {/* 3D Environment Background */}
       <div className="absolute inset-0 z-0">
         <SplineBackground scrollY={scrollY} />
       </div>
 
-      {/* Content Overlay - Shifted left and up to clear robot */}
+      {/* Content Overlay - Positioned at the bottom left */}
       <div className="max-w-4xl space-y-8 z-20 pointer-events-none relative text-left">
         <h1 className="text-5xl md:text-[6.5rem] font-display font-black leading-[0.85] text-white tracking-tighter drop-shadow-[0_20px_60px_rgba(0,0,0,0.8)] animate-in slide-in-from-left-20 fade-in duration-1000 ease-out">
           GROWTH IS THE <br />
