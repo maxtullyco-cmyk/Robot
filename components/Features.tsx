@@ -6,23 +6,23 @@ const Features: React.FC = () => {
   const features = [
     {
       icon: <Wind className="w-6 h-6" />,
-      title: "Ambient Motion",
-      desc: "Dynamics that mirror natural movements, eliminating the rigid perception of traditional robotics."
+      title: "Managed Support",
+      desc: "Comprehensive outsourced IT acting as your internal department, allowing you to scale without tech friction."
     },
     {
       icon: <Cpu className="w-6 h-6" />,
-      title: "Neural Core",
-      desc: "A custom-etched processing array designed for emotional intelligence and zero-latency awareness."
+      title: "Spend Audit",
+      desc: "Strategic technology spend optimization. We analyze your stack to reduce costs and maximize ROI."
     },
     {
       icon: <Eye className="w-6 h-6" />,
-      title: "Subtle Perception",
-      desc: "Multi-spectrum vision systems that allow for a respectful, unintrusive understanding of spaces."
+      title: "24/7 Help Desk",
+      desc: "Around-the-clock technical assistance. Your team stays productive while we handle the headaches."
     },
     {
       icon: <Layers className="w-6 h-6" />,
-      title: "Tactile Glass",
-      desc: "Interfaces that respond to the warmth of proximity, glowing only when intent is detected."
+      title: "Value First",
+      desc: "Infrastructure designed around business outcomes, ensuring your technology investments drive growth."
     }
   ];
 
@@ -32,17 +32,17 @@ const Features: React.FC = () => {
         <div className="space-y-16">
           <div className="space-y-6 animate-in slide-in-from-bottom-12 fade-in duration-1000 ease-out">
             <div className="w-24 h-1.5 bg-purple-500 mb-10 shadow-[0_0_20px_#a855f7] rounded-full"></div>
-            <h2 className="text-[12px] font-black tracking-[0.7em] text-purple-500 uppercase">Aethera Laboratory</h2>
+            <h2 className="text-[12px] font-black tracking-[0.7em] text-purple-500 uppercase">Rightsize Operations</h2>
             
             <h3 className="text-6xl md:text-8xl font-display font-black leading-[0.85] text-white tracking-tighter drop-shadow-[0_20px_60px_rgba(0,0,0,0.8)]">
-              CRAFTING <br />
+              OPTIMIZED <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-indigo-200 to-purple-600 bg-[length:200%_auto] animate-gradient-x">
-                PRESENCE.
+                INFRASTRUCTURE.
               </span>
             </h3>
             
             <p className="text-purple-100/60 text-sm md:text-base leading-relaxed max-w-md font-medium">
-              Revealing a calm, intentional intelligence that integrates seamlessly into premium environments without the clutter of traditional tech.
+              We eliminate technical debt and operational silos, replacing them with a streamlined, cost-effective IT environment built for modern scale.
             </p>
           </div>
 
@@ -78,19 +78,19 @@ const Features: React.FC = () => {
                 <div className="w-4 h-4 rounded-full bg-purple-500 shadow-[0_0_15px_#a855f7] animate-pulse"></div>
               </div>
               <div className="space-y-4">
-                <p className="text-[11px] font-black text-purple-500 uppercase tracking-[0.6em]">System Protocol: Active</p>
-                <h4 className="text-5xl font-display font-black text-white tracking-tighter leading-none">ABSOLUTE <br/>CALM.</h4>
+                <p className="text-[11px] font-black text-purple-500 uppercase tracking-[0.6em]">Network Integrity: Peak</p>
+                <h4 className="text-5xl font-display font-black text-white tracking-tighter leading-none">ABSOLUTE <br/>UPTIME.</h4>
               </div>
-              <p className="text-sm text-white/50 leading-relaxed font-medium">The Aethera core achieves 0dB operational noise through advanced magnetic leveling and passive thermal management.</p>
+              <p className="text-sm text-white/50 leading-relaxed font-medium">Rightsize Technology ensures 99.9% operational availability through proactive monitoring and rapid-response protocols.</p>
               
               <div className="pt-10 grid grid-cols-2 gap-10 border-t border-white/10">
                 <div className="space-y-2">
-                  <p className="text-[10px] text-white/20 uppercase tracking-[0.4em] font-black">Response</p>
-                  <p className="text-3xl font-display text-white font-black tracking-tighter">0.4<span className="text-xs text-purple-500 uppercase tracking-widest ml-1">ms</span></p>
+                  <p className="text-[10px] text-white/20 uppercase tracking-[0.4em] font-black">Tickets</p>
+                  <p className="text-3xl font-display text-white font-black tracking-tighter">0.0<span className="text-xs text-purple-500 uppercase tracking-widest ml-1">avg</span></p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-[10px] text-white/20 uppercase tracking-[0.4em] font-black">Sensors</p>
-                  <p className="text-3xl font-display text-white font-black tracking-tighter">OMNI</p>
+                  <p className="text-[10px] text-white/20 uppercase tracking-[0.4em] font-black">Systems</p>
+                  <p className="text-3xl font-display text-white font-black tracking-tighter">SECURE</p>
                 </div>
               </div>
            </div>
